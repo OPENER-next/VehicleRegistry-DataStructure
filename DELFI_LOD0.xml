@@ -15,133 +15,129 @@
   <PublicationTimestamp>2020-12-17T09:30:47.0Z</PublicationTimestamp>
   <ParticipantRef>SYS001</ParticipantRef>
   <dataObjects>
-    <CompositeFrame version="any" id="CompositeFrame/id/1">
-      <frames>
-        <ResourceFrame version="any" id="ResourceFrame/id/1">
-          <vehicleTypes><!--...-->
-          </vehicleTypes>
+    <ResourceFrame version="any" id="ResourceFrame/id/1">
+      <vehicleTypes><!--...-->
+      </vehicleTypes>
 
-          <trainElementTypes>
-            <TrailingElementType version="any" id="TrailingElementType/id/1">
-              <Name>T3-1</Name>
-              <capacities>
-                <PassengerCapacity version="any" id="PassengerCapacity/id/1">
-                  <FareClass>firstClass</FareClass>
-                  <SeatingCapacity>8</SeatingCapacity>
-                </PassengerCapacity>
-                <PassengerCapacity version="any" id="PassengerCapacity/id/2">
-                  <FareClass>secondClass</FareClass>
-                  <SeatingCapacity>207</SeatingCapacity>
-                  <StandingCapacity>275</StandingCapacity>
-                  <!-- DELFI 3140:
-                    Multipurpose area is indirectly described by modeling capacities for multiple different types (like
-                  wheelchair, pram etc.)
-                  -->
-                  <WheelchairPlaceCapacity>2</WheelchairPlaceCapacity>
-                  <BicycleRackCapacity>33</BicycleRackCapacity>
-                  <!-- DELFI 3050 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/898
-                  <PrioritySeatingCapacity>25</PrioritySeatingCapacity>
-                  -->
-                </PassengerCapacity>
-              </capacities>
+      <trainElementTypes>
+        <TrailingElementType version="any" id="TrailingElementType/id/1">
+          <Name>T3-1</Name>
+          <capacities>
+            <PassengerCapacity version="any" id="PassengerCapacity/id/1">
+              <FareClass>firstClass</FareClass>
+              <SeatingCapacity>8</SeatingCapacity>
+            </PassengerCapacity>
+            <PassengerCapacity version="any" id="PassengerCapacity/id/2">
+              <FareClass>secondClass</FareClass>
+              <SeatingCapacity>207</SeatingCapacity>
+              <StandingCapacity>275</StandingCapacity>
+              <!-- DELFI 3140:
+                Multipurpose area is indirectly described by modeling capacities for multiple different types (like
+              wheelchair, pram etc.)
+              -->
+              <WheelchairPlaceCapacity>2</WheelchairPlaceCapacity>
+              <BicycleRackCapacity>33</BicycleRackCapacity>
+              <!-- DELFI 3050 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/898
+              <PrioritySeatingCapacity>25</PrioritySeatingCapacity>
+              -->
+            </PassengerCapacity>
+          </capacities>
 
-              <Length>20.05</Length>
-              <Width>2.926</Width>
-              <Height>4.26</Height>
+          <Length>20.05</Length>
+          <Width>2.926</Width>
+          <Height>4.26</Height>
 
-              <facilities>
-                <ServiceFacilitySet version="any" id="ServiceFacilitySet/id/1">
-                  <PassengerInformationFacilityList>
-                    <!-- DELFI 3020 --> nextStopIndicator<!---->
-                    <!-- DELFI 3021 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/882
-                    destinationDisplay
-                    -->
-                    <!-- DELFI 3030 --> stopAnnouncements<!---->
-                    <!-- DELFI 3031 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/882
-                    routeAnnouncements
-                    -->
-                  </PassengerInformationFacilityList>
-
-                  <SanitaryFacilityList>
-                    <!-- DELFI 3060 --> toilet<!---->
-                    <!-- DELFI 3061 --> wheelchairAccessToilet<!---->
-                  </SanitaryFacilityList>
-
-                  <TicketingFacilityList>
-                    <!-- DELFI 3070 ticketMachines -->
-                  </TicketingFacilityList>
-                </ServiceFacilitySet>
-              </facilities>
-
-              <equipments>
-                <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/1">
-                  <Name>Ramp</Name>
-                  <!-- DELFI 3120 -->
-                  <Ramp>true</Ramp>
-                  <!-- DELFI 3123 -->
-                  <BearingCapacity>350</BearingCapacity>
-                  <!-- DELFI 3121 + calculation of DELFI 3126 -->
-                  <EquipmentLength>1.685</EquipmentLength>
-                  <!-- DELFI 3122 + calculation of DELFI 3125 -->
-                  <EquipmentWidth>0.817</EquipmentWidth>
-                </AccessVehicleEquipment>
-
-                <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/2">
-                  <Name>Lift</Name>
-                  <!-- DELFI 3130 -->
-                  <Hoist>true</Hoist>
-                  <!-- DELFI 3133 -->
-                  <BearingCapacity>350</BearingCapacity>
-                  <!-- calculation of DELFI 3132 -->
-                  <EquipmentLength>1</EquipmentLength>
-                  <!-- calculation of DELFI 3131 -->
-                  <EquipmentWidth>1</EquipmentWidth>
-                </AccessVehicleEquipment>
-
-                <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/3">
-                  <Name>Entrance dimensions</Name>
-                  <!-- DELFI 3110 + DELFI 3112 -->
-                  <NumberOfSteps>0</NumberOfSteps>
-
-                  <!-- DELFI 3100 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/900
-                  <FloorHeight>0.6</FloorHeight>
-                  -->
-
-
-                  <!-- DELFI 3111
-                  Can be calculated based on: (FloorHeight - BoardingHeight) / NumberOfSteps
-                  -->
-
-                  <!-- DELFI 3101 -->
-                  <BoardingHeight>0.6</BoardingHeight>
-                  <!-- DELFI 3041 -->
-                  <WidthOfAccessArea>1.3</WidthOfAccessArea>
-                  <!-- DELFI 3040 (only partially) -->
-                  <AutomaticDoors>true</AutomaticDoors>
-                </AccessVehicleEquipment>
-
-                <!-- DELFI 3113 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/873
-                <RetractableStepVehicleEquipment version="any" id="RetractableStepVehicleEquipment/id/1">
-                  <BoardingHeight>0.575</BoardingHeight>
-                  <EquipmentLength>0.2</EquipmentLength>
-                  <BearingCapacity>350</BearingCapacity>
-                  <IsAutomatic></IsAutomatic>
-                </RetractableStepVehicleEquipment>
+          <equipments>
+            <PassengerInformationEquipment version="any" id="PassengerInformationFacilityList/id/1">
+              <PassengerInformationFacilityList>
+                <!-- DELFI 3020 --> nextStopIndicator<!---->
+                <!-- DELFI 3021 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/882
+                destinationDisplay
                 -->
-              </equipments>
-            </TrailingElementType>
-          </trainElementTypes>
+                <!-- DELFI 3030 --> stopAnnouncements<!---->
+                <!-- DELFI 3031 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/882
+                routeAnnouncements
+                -->
+              </PassengerInformationFacilityList>
+            </PassengerInformationEquipment>
 
-          <schematicMaps>
-            <!-- DELFI 3010 -->
-            <SchematicMap>
-              <Name>Talent 3 seat map</Name>
-              <ImageUri>https://www.example.com</ImageUri>
-              <DepictedObjectRef ref="Train/id/1" />
-            </SchematicMap>
-          </schematicMaps>
-        </ResourceFrame>
-      </frames>
-    </CompositeFrame>
+            <SanitaryEquipment version="any" id="SanitaryEquipment/id/1">
+              <SanitaryFacilityList>
+                <!-- DELFI 3060 --> toilet<!---->
+                <!-- DELFI 3061 --> wheelchairAccessToilet<!---->
+              </SanitaryFacilityList>
+              <ToiletsType>seated</ToiletsType>
+            </SanitaryEquipment>
+
+            <TicketingEquipment version="any" id="TicketingEquipment/id/1">
+              <!-- DELFI 3070 -->
+              <NumberOfMachines>1</NumberOfMachines>
+            </TicketingEquipment>
+
+            <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/1">
+              <Name>Ramp</Name>
+              <!-- DELFI 3120 -->
+              <Ramp>true</Ramp>
+              <!-- DELFI 3123 -->
+              <BearingCapacity>350</BearingCapacity>
+              <!-- DELFI 3121 + calculation of DELFI 3126 -->
+              <EquipmentLength>1.685</EquipmentLength>
+              <!-- DELFI 3122 + calculation of DELFI 3125 -->
+              <EquipmentWidth>0.817</EquipmentWidth>
+            </AccessVehicleEquipment>
+
+            <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/2">
+              <Name>Lift</Name>
+              <!-- DELFI 3130 -->
+              <Hoist>true</Hoist>
+              <!-- DELFI 3133 -->
+              <BearingCapacity>350</BearingCapacity>
+              <!-- calculation of DELFI 3132 -->
+              <EquipmentLength>1</EquipmentLength>
+              <!-- calculation of DELFI 3131 -->
+              <EquipmentWidth>1</EquipmentWidth>
+            </AccessVehicleEquipment>
+
+            <AccessVehicleEquipment version="any" id="AccessVehicleEquipment/id/3">
+              <Name>Entrance dimensions</Name>
+              <!-- DELFI 3110 + DELFI 3112 -->
+              <NumberOfSteps>0</NumberOfSteps>
+
+              <!-- DELFI 3100 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/900
+              <FloorHeight>0.6</FloorHeight>
+              -->
+
+              <!-- DELFI 3111
+              Can be calculated based on: (FloorHeight - BoardingHeight) / NumberOfSteps
+              -->
+
+              <!-- DELFI 3101 -->
+              <BoardingHeight>0.6</BoardingHeight>
+              <!-- DELFI 3041 -->
+              <WidthOfAccessArea>1.3</WidthOfAccessArea>
+              <!-- DELFI 3040 (only partially) -->
+              <AutomaticDoors>true</AutomaticDoors>
+            </AccessVehicleEquipment>
+
+            <!-- DELFI 3113 - Proposal: https://github.com/NeTEx-CEN/NeTEx/issues/873
+            <RetractableStepVehicleEquipment version="any" id="RetractableStepVehicleEquipment/id/1">
+              <BoardingHeight>0.575</BoardingHeight>
+              <EquipmentLength>0.2</EquipmentLength>
+              <BearingCapacity>350</BearingCapacity>
+            </RetractableStepVehicleEquipment>
+            -->
+          </equipments>
+        </TrailingElementType>
+      </trainElementTypes>
+
+      <schematicMaps>
+        <!-- DELFI 3010 -->
+        <SchematicMap>
+          <Name>Talent 3 seat map</Name>
+          <ImageUri>https://www.example.com</ImageUri>
+          <DepictedObjectRef ref="Train/id/1" />
+        </SchematicMap>
+      </schematicMaps>
+    </ResourceFrame>
   </dataObjects>
 </PublicationDelivery>
