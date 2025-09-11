@@ -1,16 +1,3 @@
-```{.python .cb-run}
-import xml.etree.ElementTree as ElementTree
-from urllib.request import urlopen
-
-def list_enum_values(url, name):
-  with urlopen('https://raw.githubusercontent.com/NeTEx-CEN/NeTEx/refs/heads/next/xsd' + url) as f:
-      elements = ElementTree.parse(f).findall(
-          f'.//xsd:simpleType[@name="{name}"]//xsd:enumeration',
-          {'xsd': 'http://www.w3.org/2001/XMLSchema'}
-      )
-      for e in elements: print(f'- {e.get('value')}')
-```
-
 # Equipment
 
 ## Location
@@ -81,13 +68,11 @@ An equipment to describe features related to passenger information.
 The facilities this equipment provides.
 
 #### Values (`PassengerInformationFacilityEnumeration`):
-
-```{.python .cb-run}
-list_enum_values(
-  '/netex_framework/netex_reusableComponents/netex_facility_support.xsd',
-  'PassengerInformationFacilityEnumeration'
-)
-```
+-  nextStopIndicator
+-  stopAnnouncements
+-  passengerInformationDisplay
+-  realTimeConnections
+-  other
 
 #### DELFI
 
@@ -116,13 +101,16 @@ An equipment to describe features related to sanitary such as toilets.
 The facilities this equipment provides.
 
 #### Values (`SanitaryFacilityEnumeration`):
-
-```{.python .cb-run}
-list_enum_values(
-  '/netex_framework/netex_reusableComponents/netex_serviceRestrictions_support.xsd',
-  'SanitaryFacilityEnumeration'
-)
-```
+- none
+- toilet
+- washbasin
+- wheelchairAccessToilet
+- shower
+- washingAndChangeFacilities
+- babyChange
+- wheelchairBabyChange
+- shoeShiner
+- other
 
 #### DELFI
 

@@ -1,16 +1,3 @@
-```{.python .cb-run}
-import xml.etree.ElementTree as ElementTree
-from urllib.request import urlopen
-
-def list_enum_values(url, name):
-  with urlopen('https://raw.githubusercontent.com/NeTEx-CEN/NeTEx/refs/heads/next/xsd' + url) as f:
-      elements = ElementTree.parse(f).findall(
-          f'.//xsd:simpleType[@name="{name}"]//xsd:enumeration',
-          {'xsd': 'http://www.w3.org/2001/XMLSchema'}
-      )
-      for e in elements: print(f'- {e.get('value')}')
-```
-
 # Vehicle Types
 
 NeTEx separates train engines and carriages from other public transport vehicle types. They are modelled via specific `TractiveElementType` and `TrailingElementType` under a different location:
@@ -87,12 +74,12 @@ Indicates whether the vehicle has independent propulsion capability.
 Propulsion technology(s) used by the vehicle. Multiple values must be separated by spaces.
 
 #### Values (`PropulsionTypeEnumeration`):
-```{.python .cb-run}
-list_enum_values(
-  '/netex_framework/netex_reusableComponents/netex_vehicleType_support.xsd',
-  'PropulsionTypeEnumeration'
-)
-```
+- combustion
+- electric
+- electricAssist
+- hybrid
+- human
+- other
 
 #### Example:
 ```xml
@@ -103,12 +90,24 @@ list_enum_values(
 Energy source(s) used by the vehicle. Multiple values must be separated by spaces.
 
 #### Values (`FuelTypeEnumeration`):
-```{.python .cb-run}
-list_enum_values(
-  '/netex_framework/netex_reusableComponents/netex_nm_equipmentEnergy_support.xsd',
-  'FuelTypeEnumeration'
-)
-```
+- battery
+- biodiesel
+- diesel
+- dieselBatteryHybrid
+- electricContact
+- electricity
+- ethanol
+- hydrogen
+- liquidGas
+- tpg
+- methane
+- naturalGas
+- petrol
+- petrolBatteryHybrid
+- petrolLeaded
+- petrolUnleaded
+- none
+- other
 
 #### Example:
 ```xml
@@ -137,12 +136,32 @@ System for units can be specified on frame. Default is metres per second as defi
 Primary transport mode category according to NeTEx classification.
 
 #### Values (`AllModesEnumeration`):
-```{.python .cb-run}
-list_enum_values(
-  '/netex_framework/netex_reusableComponents/netex_mode_support.xsd',
-  'AllModesEnumeration'
-)
-```
+- all
+- anyMode
+- unknown
+- air
+- bus
+- trolleyBus
+- tram
+- coach
+- rail
+- intercityRail
+- urbanRail
+- metro
+- water
+- ferry
+- cableway
+- funicular
+- lift
+- snowAndIce
+- taxi
+- selfDrive
+- foot
+- bicycle
+- motorcycle
+- scooter
+- car
+- shuttle
 
 #### Example:
 ```xml
