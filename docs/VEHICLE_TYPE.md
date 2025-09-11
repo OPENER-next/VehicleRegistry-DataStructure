@@ -263,18 +263,3 @@ TBD. System for units can be specified on frame. Default is kilos as defined [he
 ```xml
 <Weight>56</Weight>
 ```
-
-### equipments
-
-Any equipment this vehicle type contains. The equipment can be referenced from the DeckPlan to locate it and put it into relation with other vehicle parts.
-
-| :warning: | TBD: https://github.com/NeTEx-CEN/NeTEx/issues/875|
-|---------------|:----------------------------------------|
-
-#### Example:
-
-```xml
-<equipments>
-  ...
-</equipments>
-```

@@ -3,11 +3,8 @@
 ## Location
 
 ```
-PublicationDelivery/dataObjects/ResourceFrame/vehicleTypes/VehicleType/equipments
+PublicationDelivery/dataObjects/ResourceFrame/equipments
 ```
-
-| :warning: | TBD: https://github.com/NeTEx-CEN/NeTEx/issues/875|
-|---------------|:----------------------------------------|
 
 ## General properties
 
