@@ -60,6 +60,67 @@ An equipment to describe features related to passenger information.
 </PassengerInformationEquipment>
 ```
 
+### PassengerInformationEquipmentList
+The exact passenger information equipment(s) available.
+
+#### Values (`PassengerInformationEquipmentEnumeration`):
+- timetablePoster
+- fareInformation
+- lineNetworkPlan
+- lineTimetable
+- stopTimetable
+- journeyPlanning
+- interactiveKiosk
+- informationDesk
+- networkStatus
+- realTimeDisruptions
+- realTimeDepartures
+- stationMap
+- acousticStationMap
+- tactileStationMap
+- other
+
+#### Example
+```xml
+<PassengerInformationEquipmentList>nextStopIndicator stopAnnouncements</PassengerInformationEquipmentList>
+```
+
+### InductionLoops
+
+Whether the equipment provides induction loops.
+
+#### Example
+```xml
+<InductionLoops>false</InductionLoops>
+```
+
+### TactileInterfaceAvailable
+
+Whether the equipment provides a tactile interface.
+
+#### Example
+```xml
+<TactileInterfaceAvailable>false</TactileInterfaceAvailable>
+```
+
+### AudioInterfaceAvailable
+
+Whether the equipment provides an audio interface.
+
+#### Example
+```xml
+<AudioInterfaceAvailable>true</AudioInterfaceAvailable>
+```
+
+### WheelchairSuitable
+
+Whether the equipment can be used while seated in a wheelchair.
+
+#### Example
+```xml
+<WheelchairSuitable>true</WheelchairSuitable>
+```
+
 ### PassengerInformationFacilityList
 
 The facilities this equipment provides.
