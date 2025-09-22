@@ -228,3 +228,19 @@ TBD. System for units can be specified on frame. Default is kilos as defined [he
 ```xml
 <Weight>56</Weight>
 ```
+
+### facilities
+
+This allows the specification of features available on a vehicle, like does the vehicle have air conditioning or is there an onboard bistro.
+
+The `ServiceFacilitySet` shall be defined directly under `facilities` like so:
+
+```xml
+<VehicleType>
+  <facilities>
+    <ServiceFacilitySet>
+      ...
+    </ServiceFacilitySet>
+  </facilities>
+</VehicleType>
+```
