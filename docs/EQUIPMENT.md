@@ -584,6 +584,33 @@ Free text describing how to use the ticket validator.
 <ValidationGuidance>The magnetic strip should point forward when inserting into the validator.</ValidationGuidance>
 ```
 
+## RubbishDisposalEquipment
+
+An equipment to describe any form of rubbish disposal like wastebins.
+
+```xml
+<RubbishDisposalEquipment version="any" id="321">
+  ...
+</RubbishDisposalEquipment>
+```
+### SharpsDisposal
+
+Whether there is a dedicated disposal for sharps and syringes. Sharps are classified as biohazardous waste and therefore require special disposal.
+
+#### Example
+```xml
+<SharpsDisposal>false</SharpsDisposal>
+```
+
+### Recycling
+
+Whether there is separation for recycling.
+
+#### Example
+```xml
+<Recycling>false</Recycling>
+```
+
 ## AccessVehicleEquipment
 
 An equipment to describe features related to vehicle access such as steps, entrance and more.
