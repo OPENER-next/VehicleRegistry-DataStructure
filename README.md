@@ -13,11 +13,11 @@ graph TD;
     VehicleType-->DeckPlan;
     VehicleEquipmentProfile-->Equipment;
 
-    click VehicleModel "./docs/VEHICLE_MODEL.md";
-    click VehicleType "./docs/VEHICLE_TYPE.md";
-    click VehicleEquipmentProfile "./docs/VEHICLE_EQUIPMENT_PROFILE.md";
-    click Equipment "./docs/EQUIPMENT.md";
-    click DeckPlan "./docs/DECK_PLAN.md";
+    click VehicleModel "./docs/VEHICLE_MODEL.md" _parent;
+    click VehicleType "./docs/VEHICLE_TYPE.md" _parent;
+    click VehicleEquipmentProfile "./docs/VEHICLE_EQUIPMENT_PROFILE.md" _parent;
+    click Equipment "./docs/EQUIPMENT.md" _parent;
+    click DeckPlan "./docs/DECK_PLAN.md" _parent;
 ```
 
 ### Main file structure

@@ -82,7 +82,7 @@ The exact passenger information equipment(s) available.
 
 #### Example
 ```xml
-<PassengerInformationEquipmentList>nextStopIndicator stopAnnouncements</PassengerInformationEquipmentList>
+<PassengerInformationEquipmentList>timetablePoster lineTimetable</PassengerInformationEquipmentList>
 ```
 
 ### InductionLoops
