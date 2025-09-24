@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## BedEquipment
+# BedEquipment
 
 An equipment to describe a bed. This is mostly relevant for night trains with sleeping cars.
 
@@ -15,6 +7,13 @@ An equipment to describe a bed. This is mostly relevant for night trains with sl
   ...
 </BedEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### HeightFromFloor
 

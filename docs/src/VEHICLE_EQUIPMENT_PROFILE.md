@@ -1,4 +1,4 @@
-# Vehicle Equipment Profiles
+# VehicleEquipmentProfile
 
 Each `VehicleModel` will get one `VehicleEquipmentProfile` profile which defines the equipments available on the vehicle including their respective count.
 
@@ -8,7 +8,7 @@ Each `VehicleModel` will get one `VehicleEquipmentProfile` profile which defines
 PublicationDelivery/dataObjects/ResourceFrame/vehicleEquipmentProfiles
 ```
 
-## VehicleEquipmentProfile
+## Properties
 
 ### vehicleEquipmentProfileMembers
 Contains multiple `VehicleEquipmentProfileMember` which must reference an equipment and describe the amount available in the vehicle via `MinimumUnits`.

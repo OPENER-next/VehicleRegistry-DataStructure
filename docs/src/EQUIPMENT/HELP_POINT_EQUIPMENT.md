@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## HelpPointEquipment
+# HelpPointEquipment
 
 An equipment to model driver or staff communication facilities like stop request buttons or phones.
 
@@ -15,6 +7,13 @@ An equipment to model driver or staff communication facilities like stop request
   ...
 </HelpPointEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### HeightFromGround
 

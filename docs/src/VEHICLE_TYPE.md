@@ -1,4 +1,4 @@
-# Vehicle Types
+# VehicleType
 
 NeTEx separates train engines and carriages from other public transport vehicle types. They are modelled via specific `TractiveElementType` and `TrailingElementType` under a different location:
 
@@ -12,12 +12,11 @@ A `VehicleType` builds the foundation of a `VehicleModel`. It contains
 relevant properties like the capacity, dimensions, propulsion and the reference to a `DeckPlan`.
 
 ## Location
-
 ```
 PublicationDelivery/dataObjects/ResourceFrame/vehicleTypes
 ```
 
-## VehicleType
+## Properties
 
 ### EuroClass
 Euro emission standard classification (e.g., Euro 6).

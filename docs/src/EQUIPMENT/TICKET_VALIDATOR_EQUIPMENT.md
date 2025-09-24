@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## TicketValidatorEquipment
+# TicketValidatorEquipment
 
 An equipment to describe a ticket validator.
 
@@ -15,6 +7,14 @@ An equipment to describe a ticket validator.
   ...
 </TicketValidatorEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
+
 ### TicketValidatorType
 
 The type of ticket validator.

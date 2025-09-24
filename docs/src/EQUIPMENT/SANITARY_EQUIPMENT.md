@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## SanitaryEquipment
+# SanitaryEquipment
 
 An equipment to describe features related to sanitary such as toilets.
 
@@ -15,6 +7,13 @@ An equipment to describe features related to sanitary such as toilets.
   ...
 </SanitaryEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### Gender
 

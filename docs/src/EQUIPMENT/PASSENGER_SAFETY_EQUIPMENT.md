@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## PassengerSafetyEquipment
+# PassengerSafetyEquipment
 
 An equipment to describe passenger safety related facilities like CCTV or audio announcements.
 
@@ -15,6 +7,13 @@ An equipment to describe passenger safety related facilities like CCTV or audio 
   ...
 </PassengerSafetyEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### Cctv
 

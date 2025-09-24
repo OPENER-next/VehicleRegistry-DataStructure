@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## PassengerInformationEquipment
+# PassengerInformationEquipment
 
 An equipment to describe features related to passenger information.
 
@@ -15,6 +7,13 @@ An equipment to describe features related to passenger information.
   ...
 </PassengerInformationEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### PassengerInformationEquipmentList
 The exact passenger information equipment(s) available.

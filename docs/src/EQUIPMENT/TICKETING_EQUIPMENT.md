@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## TicketingEquipment
+# TicketingEquipment
 
 An equipment to describe features related to ticketing, like ticket machines or ticket counters.
 
@@ -15,6 +7,13 @@ An equipment to describe features related to ticketing, like ticket machines or 
   ...
 </TicketingEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### TicketMachines
 

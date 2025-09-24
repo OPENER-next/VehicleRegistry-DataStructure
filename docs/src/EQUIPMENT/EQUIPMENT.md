@@ -1,14 +1,15 @@
 # Equipment
 
-## Location
+An equipment allows adding additional details by assigning it to a `VehicleModel` or a `DeckPlan` element such as a `PassengerSpot` or `PassengerEntrance`. All equipments are defined in a single place and must be referenced via their specific `EquipmentRef` element.
 
+The properties below are general properties that any equipment provides.
+
+## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments
 ```
 
-## General properties
-
-Properties that can be added to any equipment.
+## Properties
 
 ### Name
 

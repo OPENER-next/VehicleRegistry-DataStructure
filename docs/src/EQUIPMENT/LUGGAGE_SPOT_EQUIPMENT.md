@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## LuggageSpotEquipment
+# LuggageSpotEquipment
 
 An equipment to describe a luggage storage like a locker, rack or bay.
 
@@ -15,6 +7,13 @@ An equipment to describe a luggage storage like a locker, rack or bay.
   ...
 </LuggageSpotEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### HeightFromFloor
 

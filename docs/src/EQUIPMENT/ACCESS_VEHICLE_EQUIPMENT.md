@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## AccessVehicleEquipment
+# AccessVehicleEquipment
 
 An equipment to describe features related to vehicle access such as steps, entrance and more.
 
@@ -15,6 +7,12 @@ An equipment to describe features related to vehicle access such as steps, entra
   ...
 </AccessVehicleEquipment>
 ```
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### NumberOfSteps
 

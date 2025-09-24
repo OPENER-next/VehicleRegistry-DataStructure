@@ -1,12 +1,4 @@
-# Equipment
-
-## Location
-
-```
-PublicationDelivery/dataObjects/ResourceFrame/equipments
-```
-
-## SeatEquipment
+# SeatEquipment
 
 An equipment to describe properties of a passenger seat.
 
@@ -15,6 +7,13 @@ An equipment to describe properties of a passenger seat.
   ...
 </SeatEquipment>
 ```
+
+## Location
+```
+PublicationDelivery/dataObjects/ResourceFrame/equipments
+```
+
+## Properties
 
 ### HeightFromFloor
 
