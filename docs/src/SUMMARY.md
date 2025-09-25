@@ -18,6 +18,7 @@
   - [Help Point Equipment](EQUIPMENT/HELP_POINT_EQUIPMENT.md)
   - [Rubbish Disposal Equipment](EQUIPMENT/RUBBISH_DISPOSAL_EQUIPMENT.md)
   - [Sanitary Equipment](EQUIPMENT/SANITARY_EQUIPMENT.md)
+  - [Staircase Equipment](EQUIPMENT/STAIRCASE_EQUIPMENT.md)
 - [Vehicle Model](VEHICLE_MODEL.md)
 - [Vehicle Type](VEHICLE_TYPE.md)
 - [Vehicle Equipment Profile](VEHICLE_EQUIPMENT_PROFILE.md)
