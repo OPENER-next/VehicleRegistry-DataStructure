@@ -8,6 +8,8 @@ An equipment to describe properties of a stair case. A staircase can contain mul
 </StaircaseEquipment>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd#L520)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

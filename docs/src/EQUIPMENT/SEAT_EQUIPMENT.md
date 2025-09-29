@@ -8,6 +8,8 @@ An equipment to describe properties of a passenger seat.
 </SeatEquipment>
 ```
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd#L166)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

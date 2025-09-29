@@ -2,6 +2,8 @@
 
 Each `VehicleModel` will get one `VehicleEquipmentProfile` profile which defines the equipments available on the vehicle including their respective count.
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd#L1178)
+
 ## Location
 
 ```

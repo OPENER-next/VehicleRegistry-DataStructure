@@ -4,6 +4,8 @@ An equipment allows adding additional details by assigning it to a `VehicleModel
 
 The properties below are general properties that any equipment provides.
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_equipment_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_equipment_version.xsd#L103)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

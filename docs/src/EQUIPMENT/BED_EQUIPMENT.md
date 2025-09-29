@@ -8,6 +8,8 @@ An equipment to describe a bed. This is mostly relevant for night trains with sl
 </BedEquipment>
 ```
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd#L254)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

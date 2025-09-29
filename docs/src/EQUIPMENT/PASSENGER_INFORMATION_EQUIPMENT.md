@@ -8,6 +8,8 @@ An equipment to describe features related to passenger information.
 </PassengerInformationEquipment>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_tacticalPlanning/netex_passengerInformationEquipment_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_tacticalPlanning/netex_passengerInformationEquipment_version.xsd#L189)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

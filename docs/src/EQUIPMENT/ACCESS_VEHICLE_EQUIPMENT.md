@@ -7,6 +7,8 @@ An equipment to describe features related to vehicle access such as steps, entra
   ...
 </AccessVehicleEquipment>
 ```
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_equipmentVehiclePassenger_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_equipmentVehiclePassenger_version.xsd#L137)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

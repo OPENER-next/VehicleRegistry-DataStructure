@@ -8,6 +8,8 @@ An equipment to describe the lighting of an area.
 </PlaceLighting>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd#L264)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

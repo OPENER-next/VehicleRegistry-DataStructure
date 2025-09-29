@@ -11,6 +11,8 @@ However this distinction is not used in the registry data structure. Instead eve
 A `VehicleType` builds the foundation of a `VehicleModel`. It contains
 relevant properties like the capacity, dimensions, propulsion and the reference to a `DeckPlan`.
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd#L246)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/vehicleTypes

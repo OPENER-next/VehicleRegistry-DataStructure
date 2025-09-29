@@ -8,6 +8,8 @@ An equipment to describe a ticket validator.
 </TicketValidatorEquipment>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentTicketing_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentTicketing_version.xsd#L236)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

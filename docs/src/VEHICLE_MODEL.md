@@ -2,6 +2,8 @@
 
 The core element which references a `VehicleType` and a `VehicleEquipmentProfile`.
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_vehicleType_version.xsd#L1081)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/vehicleModels

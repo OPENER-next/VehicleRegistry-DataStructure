@@ -8,6 +8,8 @@ An equipment to describe features related to sanitary such as toilets.
 </SanitaryEquipment>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentPassenger_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentPassenger_version.xsd#L107)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

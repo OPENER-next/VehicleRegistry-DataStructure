@@ -21,6 +21,8 @@ Orientation  │   │Door       │
              │      Inside
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentAccess_version.xsd#L1234)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

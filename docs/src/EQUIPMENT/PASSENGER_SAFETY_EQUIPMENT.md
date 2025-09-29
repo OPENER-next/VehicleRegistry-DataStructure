@@ -8,6 +8,8 @@ An equipment to describe passenger safety related facilities like CCTV or audio 
 </PassengerSafetyEquipment>
 ```
 
+**XSD:** [`xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentPassenger_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_part_1/part1_ifopt/netex_ifopt_equipmentPassenger_version.xsd#L256)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

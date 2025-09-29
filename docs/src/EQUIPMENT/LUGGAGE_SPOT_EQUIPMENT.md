@@ -8,6 +8,8 @@ An equipment to describe a luggage storage like a locker, rack or bay.
 </LuggageSpotEquipment>
 ```
 
+**XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_spotEquipment_version.xsd#L327)
+
 ## Location
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments
