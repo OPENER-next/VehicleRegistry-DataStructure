@@ -1,4 +1,4 @@
-# NeTEx based Vehicle Registry
+# NeTEx based Vehicle Registry Data Structure
 
 This repository contains documentation, examples and decisions for a NeTEx based vehicle registry. It defines which NeTEx elements are used, their definitions and modeling conventions. The focus lies on passenger related data such as:
 - accessibility data (covers the [german DELFI  handbook "Barrierefreie Reiseketten in der Fahrgastinformation"](https://www.delfi.de/media/delfi_handbuch_barrierefreie_reiseketten_2._auflage_2024.pdf))
