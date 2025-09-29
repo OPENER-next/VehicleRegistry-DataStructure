@@ -2,10 +2,6 @@
 
 A special equipment to model ramps used to bridge the horizontal and vertical gap between vehicle and platform. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/873))
 
-## DELFI
-
-- 3120 ↦ Existence of `RampVehicleEquipment`
-
 ```xml
 <RampVehicleEquipment version="any" id="321">
   ...
@@ -16,6 +12,10 @@ A special equipment to model ramps used to bridge the horizontal and vertical ga
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments
 ```
+
+## DELFI
+
+- 3120 ↦ Existence of `RampVehicleEquipment`
 
 ## Properties
 

@@ -2,10 +2,6 @@
 
 A special equipment to model hoists and lifts used to bridge the vertical and partially horizontal gap between vehicle and platform. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/873))
 
-## DELFI
-
-- 3130 ↦ Existence of `HoistVehicleEquipment`
-
 ```xml
 <HoistVehicleEquipment version="any" id="321">
   ...
@@ -16,6 +12,10 @@ A special equipment to model hoists and lifts used to bridge the vertical and pa
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments
 ```
+
+## DELFI
+
+- 3130 ↦ Existence of `HoistVehicleEquipment`
 
 ## Properties
 

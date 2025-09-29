@@ -2,10 +2,6 @@
 
 A special vehicle equipment for sliding and folding steps which reduce the horizontal and partially vertical gap between vehicle and platform. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/873))
 
-## DELFI
-
-- 3113 ↦ Existence of `RetractableStepVehicleEquipment`
-
 ```xml
 <RetractableStepVehicleEquipment version="any" id="321">
   ...
@@ -16,6 +12,10 @@ A special vehicle equipment for sliding and folding steps which reduce the horiz
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments
 ```
+
+## DELFI
+
+- 3113 ↦ Existence of `RetractableStepVehicleEquipment`
 
 ## Properties
 
