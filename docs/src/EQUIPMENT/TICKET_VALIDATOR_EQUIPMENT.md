@@ -21,7 +21,7 @@ PublicationDelivery/dataObjects/ResourceFrame/equipments
 
 The type of ticket validator.
 
-#### Values (`TicketValidatorEnumeration`)
+#### Values (`TicketValidatorEnumeration`):
 - paperStamp
 - contactLess
 - magnetic

@@ -59,7 +59,7 @@ Whether there is a ticket counter. Mostly relevant for ferries.
 
 The accepted payment methods when buying a ticket.
 
-#### Values (`PaymentMethodEnumeration`)
+#### Values (`PaymentMethodEnumeration`):
 - cash
 - cashExactChangeOnly
 - cashAndCard
@@ -95,7 +95,7 @@ The accepted payment methods when buying a ticket.
 
 ### TicketTypesAvailable
 
-#### Values (`TicketTypeEnumeration`)
+#### Values (`TicketTypeEnumeration`):
 - standard
 - promotion
 - concession
@@ -115,7 +115,7 @@ The accepted payment methods when buying a ticket.
 
 The scope of the tickets sold at this facility.
 
-#### Values (`ScopeOfTicketEnumeration`)
+#### Values (`ScopeOfTicketEnumeration`):
 - unknown
 - localTicket
 - nationalTicket

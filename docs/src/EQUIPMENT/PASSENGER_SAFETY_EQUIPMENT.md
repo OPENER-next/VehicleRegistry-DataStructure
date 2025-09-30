@@ -57,7 +57,7 @@ Whether there are audio announcements.
 
 When the audio announcements are announced.
 
-#### Values (`AudioAnnouncementTypeEnumeration`)
+#### Values (`AudioAnnouncementTypeEnumeration`):
 - onDemand
 - automatic
 
@@ -70,7 +70,7 @@ When the audio announcements are announced.
 
 How the audio announcements are triggered.
 
-#### Values (`AudioTriggerMethodEnumeration`)
+#### Values (`AudioTriggerMethodEnumeration`):
 - presenceDetector
 - mobileApp
 - internetPage

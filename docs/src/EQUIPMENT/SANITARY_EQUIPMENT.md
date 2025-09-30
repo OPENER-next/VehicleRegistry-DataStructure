@@ -106,7 +106,7 @@ Type of currency. Based on ISO 4217 values e.g. EUR or USD.
 
 The accepted payment methods to pay the fee.
 
-#### Values (`PaymentMethodEnumeration`)
+#### Values (`PaymentMethodEnumeration`):
 - cash
 - cashExactChangeOnly
 - cashAndCard
@@ -205,7 +205,7 @@ Whether the tap inside the sanitary facility supplies drinking water.
 
 The toilet types available at this sanitary facility.
 
-#### Values (`ToiletsTypeEnumeration`)
+#### Values (`ToiletsTypeEnumeration`):
 - seated
 - urinal
 - squat

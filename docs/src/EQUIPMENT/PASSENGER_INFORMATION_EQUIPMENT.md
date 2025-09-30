@@ -83,11 +83,11 @@ Whether the equipment can be used while seated in a wheelchair.
 The facilities this equipment provides.
 
 #### Values (`PassengerInformationFacilityEnumeration`):
--  nextStopIndicator
--  stopAnnouncements
--  passengerInformationDisplay
--  realTimeConnections
--  other
+- nextStopIndicator
+- stopAnnouncements
+- passengerInformationDisplay
+- realTimeConnections
+- other
 
 #### DELFI
 
