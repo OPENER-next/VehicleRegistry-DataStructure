@@ -1,11 +1,9 @@
 # Summary
 
 # Building blocks
-
-- [Deck Plan](DECK_PLAN.md)
-  - [Deck Space](DECK_PLAN/DECK_SPACE/DECK_SPACE.md)
-    - [Other Deck Space](DECK_PLAN/DECK_SPACE/OTHER_DECK_SPACE.md)
-    - [Passenger Space](DECK_PLAN/DECK_SPACE/PASSENGER_SPACE.md)
+- [Vehicle Model](VEHICLE_MODEL.md)
+- [Vehicle Type](VEHICLE_TYPE.md)
+- [Vehicle Equipment Profile](VEHICLE_EQUIPMENT_PROFILE.md)
 - [Equipment](EQUIPMENT/EQUIPMENT.md)
   - [Seat Equipment](EQUIPMENT/SEAT_EQUIPMENT.md)
   - [Luggage Spot Equipment](EQUIPMENT/LUGGAGE_SPOT_EQUIPMENT.md)
@@ -24,9 +22,10 @@
   - [Help Point Equipment](EQUIPMENT/HELP_POINT_EQUIPMENT.md)
   - [Rubbish Disposal Equipment](EQUIPMENT/RUBBISH_DISPOSAL_EQUIPMENT.md)
   - [Place Lighting](EQUIPMENT/PLACE_LIGHTING.md)
-- [Vehicle Model](VEHICLE_MODEL.md)
-- [Vehicle Type](VEHICLE_TYPE.md)
-- [Vehicle Equipment Profile](VEHICLE_EQUIPMENT_PROFILE.md)
+- [Deck Plan](DECK_PLAN.md)
+  - [Deck Space](DECK_PLAN/DECK_SPACE/DECK_SPACE.md)
+    - [Other Deck Space](DECK_PLAN/DECK_SPACE/OTHER_DECK_SPACE.md)
+    - [Passenger Space](DECK_PLAN/DECK_SPACE/PASSENGER_SPACE.md)
 
 # Rationales
 
