@@ -5,6 +5,7 @@
 - [Deck Plan](DECK_PLAN.md)
   - [Deck Space](DECK_PLAN/DECK_SPACE/DECK_SPACE.md)
     - [Other Deck Space](DECK_PLAN/DECK_SPACE/OTHER_DECK_SPACE.md)
+    - [Passenger Space](DECK_PLAN/DECK_SPACE/PASSENGER_SPACE.md)
 - [Equipment](EQUIPMENT/EQUIPMENT.md)
   - [Seat Equipment](EQUIPMENT/SEAT_EQUIPMENT.md)
   - [Luggage Spot Equipment](EQUIPMENT/LUGGAGE_SPOT_EQUIPMENT.md)
