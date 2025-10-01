@@ -6,6 +6,8 @@ The properties below are general properties that any `DeckSpace` provides.
 
 **XSD:** [`xsd/netex_framework/netex_reusableComponents/netex_deckPlan_version.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_reusableComponents/netex_deckPlan_version.xsd#L322)
 
+## Properties
+
 ### Label
 
 An attached or printed name of the space like the name found on a room sign.
@@ -194,16 +196,33 @@ Reference to another `DeckSpace` of which this space is a part of.
 
 ### deckEntrances
 
+Entrances connected to this space. This contains a list of [`DeckEntrance`](../DECK_ENTRANCE/DECK_ENTRANCE.md) definitions or references.
+
 #### Example
+
 ```xml
-<deckEntrances>2</deckEntrances>
+<deckEntrances>
+  <PassengerEntrance version="any" id="2">
+    ...
+  </PassengerEntrance>
+
+  <PassengerEntranceRef ref="1">
+</deckEntrances>
 ```
 
 ### deckWindows
 
+Windows adjoining this space. This contains a list of [`DeckWindow`](../DECK_WINDOW.md) definitions or references.
+
 #### Example
 ```xml
-<deckWindows>2</deckWindows>
+<deckWindows>
+  <DeckWindow version="any" id="2">
+    ...
+  </DeckWindow>
+
+  <DeckWindowRef ref="1">
+</deckWindows>
 ```
 
 ### TotalCapacity
