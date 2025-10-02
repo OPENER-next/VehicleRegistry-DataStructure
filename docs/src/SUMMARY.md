@@ -26,6 +26,10 @@
   - [Deck Space](DECK_PLAN/DECK_SPACE/DECK_SPACE.md)
     - [Other Deck Space](DECK_PLAN/DECK_SPACE/OTHER_DECK_SPACE.md)
     - [Passenger Space](DECK_PLAN/DECK_SPACE/PASSENGER_SPACE.md)
+  - [Deck Entrance](DECK_PLAN/DECK_ENTRANCE/DECK_ENTRANCE.md)
+    - [Passenger Entrance](DECK_PLAN/DECK_ENTRANCE/PASSENGER_ENTRANCE.md)
+    - [Other Deck Entrance](DECK_PLAN/DECK_ENTRANCE/OTHER_DECK_ENTRANCE.md)
+    - [Deck Vehicle Entrance](DECK_PLAN/DECK_ENTRANCE/DECK_VEHICLE_ENTRANCE.md)
 
 # Rationales
 
