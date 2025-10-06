@@ -17,17 +17,17 @@ from lxml import etree
 '''
 Expects a zip file of the NeTEx repo.
 Returns an iterator over all NeTEx XSD files.
+The iterator produces tuples containing an XML Tree and the file path.
 '''
-def iterZipXSDFiles(netexZipPath):
-  with ZipFile(netexZipPath) as zipFile:
-    for member in zipFile.infolist():
-      # filter for files
-      if not member.is_dir():
-        filePathParts = Path(member.filename).parts
-        # filter for files inside the xsd directory
-        if len(filePathParts) > 1 and filePathParts[1] == 'xsd':
-          with zipFile.open(member) as file:
-            yield file, Path(*filePathParts[1:]).as_posix()
+def iterZipXSDFiles(zipFile):
+  for member in zipFile.infolist():
+    # filter for files
+    if not member.is_dir():
+      filePathParts = Path(member.filename).parts
+      # filter for files inside the xsd directory
+      if len(filePathParts) > 1 and filePathParts[1] == 'xsd':
+        with zipFile.open(member) as file:
+          yield etree.parse(file), Path(*filePathParts[1:]).as_posix()
 
 
 '''
@@ -66,8 +66,7 @@ class EnumValuesLineReplacer:
 
   def findEnumElementsByName(self, name):
     pattern = f'.//xsd:simpleType[@name="{name}"]//xsd:enumeration'
-    for file, path in iterZipXSDFiles(self.zipFile):
-      tree = etree.parse(file)
+    for tree, path in iterZipXSDFiles(self.zipFile):
       if tree.find(pattern, {'xsd': 'http://www.w3.org/2001/XMLSchema'}) is not None:
         return tree.iterfind(pattern, {'xsd': 'http://www.w3.org/2001/XMLSchema'})
 
@@ -114,8 +113,7 @@ class XSDGithubRefLineReplacer:
 
   def findElementByName(self, name):
     pattern = f'.//xsd:element[@name="{name}"]'
-    for file, filePath in iterZipXSDFiles(self.zipFile):
-      tree = etree.parse(file)
+    for tree, filePath in iterZipXSDFiles(self.zipFile):
       result = tree.find(pattern, {'xsd': 'http://www.w3.org/2001/XMLSchema'})
       if result is not None:
         return result, filePath
@@ -133,19 +131,21 @@ branch = sys.argv[2]
 zipFilePath = 'netex.zip'
 # download NeTEx as zip
 urllib.request.urlretrieve(f'https://github.com/NeTEx-CEN/NeTEx/archive/refs/heads/{branch}.zip', zipFilePath)
-# loop through all given files
-for (dirpath, dirnames, filenames) in os.walk(directory):
-  for filename in filenames:
-    filePath = os.path.join(dirpath, filename)
-    # NOTE: this redirects all prints/std:outs to the file
-    with fileinput.input(filePath, inplace=True) as file:
-      replacers = (
-        XSDGithubRefLineReplacer(zipFilePath, branch),
-        EnumValuesLineReplacer(zipFilePath),
-      )
-      # rewrite file
-      for line in file:
-        if not any(map(lambda r: r.run(line), replacers)):
-          sys.stdout.write(line)
 
-os.remove(zipFilePath)
+with ZipFile(zipFilePath) as zipFile:
+  # loop through all given files
+  for (dirpath, dirnames, filenames) in os.walk(directory):
+    for filename in filenames:
+      filePath = os.path.join(dirpath, filename)
+      # NOTE: this redirects all prints/std:outs to the file
+      with fileinput.input(filePath, inplace=True) as file:
+        replacers = (
+          XSDGithubRefLineReplacer(zipFile, branch),
+          EnumValuesLineReplacer(zipFile),
+        )
+        # rewrite file
+        for line in file:
+          if not any(map(lambda r: r.run(line), replacers)):
+            sys.stdout.write(line)
+
+  os.remove(zipFilePath)
