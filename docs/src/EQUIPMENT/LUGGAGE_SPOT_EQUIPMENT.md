@@ -48,7 +48,7 @@ Whether the luggage storage has an USB power supply socket.
 
 The specific type of luggage storage.
 
-#### Values (`LuggageSpotTypeEnumeration`)
+#### Values (`LuggageSpotTypeEnumeration`):
 - rackAboveSeats
 - spaceUnderSeat
 - luggageBay

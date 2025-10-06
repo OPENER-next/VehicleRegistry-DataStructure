@@ -1,6 +1,6 @@
 # DeckSpace
 
-A `DeckSpace` is an area within a vehicle delimiting a particular use such as a seating compartment, WC, on-board restaurant or gangway. A `DeckSpace` may contain other spaces (see [`ParentDeckSpaceRef`](#ParentDeckSpaceRef])) and different types of `DeckSpace`s may overlap.
+A `DeckSpace` is an area within a vehicle delimiting a particular use such as a seating compartment, WC, on-board restaurant or gangway. A `DeckSpace` may contain other spaces (see [`ParentDeckSpaceRef`](#parentdeckspaceref)) and different types of `DeckSpace`s may overlap.
 
 The properties below are general properties that any `DeckSpace` provides.
 

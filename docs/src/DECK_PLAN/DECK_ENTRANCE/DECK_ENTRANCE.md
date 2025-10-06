@@ -3,8 +3,8 @@
 A `DeckEntrance` is an entrance to or within a [`Deck`](../DECK.md).
 
 In the current NeTEx `DeckPlan` examples `DeckEntrance` connections are modelled via special `DeckEntranceCouple` elements. However this method is very verbose and leads to data duplications, see:
-- https://public.3.basecamp.com/p/HfgDsdYNKac6zjw3J1Y3K5SY
-- https://github.com/NeTEx-CEN/NeTEx/pull/952
+- [https://public.3.basecamp.com/p/HfgDsdYNKac6zjw3J1Y3K5SY](https://public.3.basecamp.com/p/HfgDsdYNKac6zjw3J1Y3K5SY)
+- [https://github.com/NeTEx-CEN/NeTEx/pull/952](https://github.com/NeTEx-CEN/NeTEx/pull/952)
 
 Therefore in this data structure a `DeckEntrance` is simply modeled in one of the rooms it belongs to and referenced from the other room.
 

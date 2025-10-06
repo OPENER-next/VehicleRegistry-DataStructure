@@ -4,7 +4,7 @@
 A [`DeckEntrance`](DECK_ENTRANCE.md) defining an entrance to or within a [`Deck`](../DECK.md) for vehicles.
 
 ```xml
-<DeckVehicleEntrance version="any" id="321
+<DeckVehicleEntrance version="any" id="321">
   ...
 </DeckVehicleEntrance>
 ```
