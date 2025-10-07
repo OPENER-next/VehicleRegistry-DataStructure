@@ -77,7 +77,7 @@ The inner height of the window in meters.
 
 ### DeckLevelRef
 
-Reference to the [`DeckLevel`](DECK_LEVEL.md) this window belongs to.
+Reference to the [`DeckLevel`](DECK_LEVEL.md) this window belongs to. If omitted this shall be inherited from the [Deck](DECK.md) in which the `DeckWindow` is defined.
 
 #### Example
 ```xml

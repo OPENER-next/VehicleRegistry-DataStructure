@@ -127,7 +127,7 @@ Whether the entrance is open to the public. Default is `true`.
 
 ### DeckLevelRef
 
-Reference to the [`DeckLevel`](../DECK_LEVEL.md) this entrance belongs to.
+Reference to the [`DeckLevel`](../DECK_LEVEL.md) this entrance belongs to. If omitted this shall be inherited from the [Deck](../DECK.md) in which the `DeckEntrance` is defined.
 
 #### Example
 ```xml

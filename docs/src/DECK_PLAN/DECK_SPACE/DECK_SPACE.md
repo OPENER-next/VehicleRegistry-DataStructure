@@ -129,7 +129,7 @@ Whether the space is open to the public. Default is `true`.
 
 ### DeckLevelRef
 
-Reference to the [`DeckLevel`](../DECK_LEVEL.md) this space belongs to.
+Reference to the [`DeckLevel`](../DECK_LEVEL.md) this space belongs to. If omitted this shall be inherited from the [Deck](../DECK.md) in which the `DeckSpace` is defined.
 
 #### Example
 ```xml
