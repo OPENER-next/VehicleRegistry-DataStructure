@@ -20,7 +20,7 @@ PublicationDelivery/dataObjects/ResourceFrame/deckPlans/DeckPlan/deckLevels
 
 ### Label
 
-The name of the level found in the building, e.g. GF (ground floor) or B1 (first basement level).
+The name of the level as found in the vehicle, e.g. GF (ground floor) or B1 (first basement level).
 
 #### Example
 ```xml

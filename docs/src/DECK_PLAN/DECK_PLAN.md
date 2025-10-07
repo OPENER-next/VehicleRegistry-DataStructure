@@ -25,8 +25,11 @@ Conditions used to group different deck plan elements to a single configuration 
 This technically allows multiple different `Condition` elements allowing for complex condition matching with timing, comparison operators and more. However for this data structure we only use the `ValidityCondition` which is only the definition of a possible configuration, without saying anything about when this configuration applies (the vehicle registry has no knowledge about this).
 
 #### Properties
-- `Name` - A name to identify the validity condition.
-- `Description` - Description or other comment describing further details about the configuration.
+##### Name
+A name to identify the validity condition.
+
+##### Description
+Description or other comment describing further details about the configuration.
 
 #### Example
 ```xml
