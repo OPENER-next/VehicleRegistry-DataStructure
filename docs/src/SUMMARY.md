@@ -23,6 +23,7 @@
   - [Rubbish Disposal Equipment](EQUIPMENT/RUBBISH_DISPOSAL_EQUIPMENT.md)
   - [Place Lighting](EQUIPMENT/PLACE_LIGHTING.md)
 - [Deck Plan](DECK_PLAN/DECK_PLAN.md)
+  - [Deck](DECK_PLAN/DECK.md)
   - [DeckLevel](DECK_PLAN/DECK_LEVEL.md)
   - [Deck Space](DECK_PLAN/DECK_SPACE/DECK_SPACE.md)
     - [Other Deck Space](DECK_PLAN/DECK_SPACE/OTHER_DECK_SPACE.md)
