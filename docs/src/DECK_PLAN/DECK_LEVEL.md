@@ -24,7 +24,9 @@ The name of the level as found in the vehicle, e.g. GF (ground floor) or B1 (fir
 
 #### Example
 ```xml
-<Label>GF</Label>
+<Label>
+  <Text lang="en">GF</Text>
+</Label>
 ```
 
 ### Name
@@ -33,7 +35,9 @@ A name to identify the level, e.g. 0, 1, 2, 3, etc.
 
 #### Example
 ```xml
-<Name>0</Name>
+<Name>
+  <Text lang="en">0</Text>
+</Name>
 ```
 
 ### Description
@@ -42,7 +46,9 @@ A description providing additional information about the level.
 
 #### Example
 ```xml
-<Description>Parking deck level.</Description>
+<Description>
+  <Text lang="en">Parking deck level.</Text>
+</Description>
 ```
 
 ### PublicUse

@@ -20,7 +20,9 @@ A name to identify the equipment.
 #### Example
 
 ```xml
-<Name>Lift - PALFINGER CL300</Name>
+<Name>
+  <Text lang="en">Lift - PALFINGER CL300</Text>
+</Name>
 ```
 
 ### Description
@@ -30,7 +32,9 @@ Description or other comment targeted at the passenger.
 #### Example
 
 ```xml
-<Description>The lift is operated by the driver. Notify the driver by pushing the green button.</Description>
+<Description>
+  <Text lang="en">The lift is operated by the driver. Notify the driver by pushing the green button.</Text>
+</Description>
 ```
 
 ### Note
@@ -40,7 +44,9 @@ Description or other comment targeted at internal people like the operator of th
 #### Example
 
 ```xml
-<Note>The lift must be unlocked via the special toolkit, ...</Note>
+<Note>
+  <Text lang="en">The lift must be unlocked via the special toolkit, ...</Text>
+</Note>
 ```
 
 ### Image

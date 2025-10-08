@@ -63,5 +63,7 @@ Free text describing how to use the ticket validator.
 
 #### Example
 ```xml
-<ValidationGuidance>The magnetic strip should point forward when inserting into the validator.</ValidationGuidance>
+<ValidationGuidance>
+  <Text lang="en">The magnetic strip should point forward when inserting into the validator.</Text>
+</ValidationGuidance>
 ```

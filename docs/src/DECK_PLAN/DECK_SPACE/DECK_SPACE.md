@@ -14,7 +14,9 @@ An attached or printed name of the space like the name found on a room sign.
 
 #### Example
 ```xml
-<Label>C3</Label>
+<Label>
+  <Text lang="en">C3</Text>
+</Label>
 ```
 
 ### Name
@@ -23,7 +25,9 @@ A name to identify the space.
 
 #### Example
 ```xml
-<Name>Compartment 3</Name>
+<Name>
+  <Text lang="en">Compartment 3</Text>
+</Name>
 ```
 
 ### Description
@@ -32,7 +36,9 @@ A description providing additional information about the space.
 
 #### Example
 ```xml
-<Description>Second class family compartment.</Description>
+<Description>
+  <Text lang="en">Second class family compartment.</Text>
+</Description>
 ```
 
 ### Orientation

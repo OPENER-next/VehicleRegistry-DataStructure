@@ -32,7 +32,9 @@ A name to identify the entrance.
 
 #### Example
 ```xml
-<Name>Compartment 3</Name>
+<Name>
+  <Text lang="en">Compartment 3</Text>
+</Name>
 ```
 
 ### Description
@@ -41,7 +43,9 @@ A description providing additional information about the entrance.
 
 #### Example
 ```xml
-<Description>Front entrance to carriage W02.</Description>
+<Description>
+  <Text lang="en">Front entrance to carriage W02.</Text>
+</Description>
 ```
 
 ### Orientation

@@ -24,7 +24,9 @@ A name to identify the deck.
 
 #### Example
 ```xml
-<Name>1. Deck</Name>
+<Name>
+  <Text lang="en">1. Deck</Text>
+</Name>
 ```
 
 ### DeckLevelRef
@@ -59,11 +61,15 @@ Whether the numbering of the rows starts at the front of the vehicle. Default is
 ```xml
 <spotRows>
   <SpotRow version="any" id="1">
-    <Label>Row 1</Label>
+    <Label>
+      <Text lang="en">Row 1</Text>
+    </Label>
     <NumberingFromFront>false</NumberingFromFront>
   </SpotRow>
   <SpotRow version="any" id="2">
-    <Label>Row 2</Label>
+    <Label>
+      <Text lang="en">Row 2</Text>
+    </Label>
     <NumberingFromFront>false</NumberingFromFront>
   </SpotRow>
   ...
@@ -85,11 +91,15 @@ Whether the numbering of the columns starts from the left or right side of the v
 ```xml
 <spotColumns>
   <SpotColumn version="any" id="1">
-    <Label>Column A</Label>
+    <Label>
+      <Text lang="en">Column A</Text>
+    </Label>
     <NumberingFromLeft>false</NumberingFromFront>
   </SpotRow>
   <SpotColumn version="any" id="2">
-    <Label>Column B</Label>
+    <Label>
+      <Text lang="en">Column B</Text>
+    </Label>
     <NumberingFromLeft>false</NumberingFromFront>
   </SpotRow>
   ...

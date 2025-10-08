@@ -35,8 +35,12 @@ Description or other comment describing further details about the configuration.
 ```xml
 <configurationConditions>
   <ValidityCondition version="any" id="1">
-    <Name>Sleeper configuration</Name>
-    <Description>Changes seats to beds.</Description>
+    <Name>
+      <Text lang="en">Sleeper configuration</Text>
+    </Name>
+    <Description>
+      <Text lang="en">Changes seats to beds.</Text>
+    </Description>
   </ValidityCondition>
   <ValidityCondition version="any" id="2">
     ...

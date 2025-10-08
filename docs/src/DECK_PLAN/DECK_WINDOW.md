@@ -24,7 +24,9 @@ A name to identify the window.
 
 #### Example
 ```xml
-<Name>Window Row 3-4</Name>
+<Name>
+  <Text lang="en">Window Row 3-4</Text>
+</Name>
 ```
 
 ### Description
@@ -33,7 +35,9 @@ A description providing additional information about the window.
 
 #### Example
 ```xml
-<Description>Interior window to compartment 4.</Description>
+<Description>
+  <Text lang="en">Interior window to compartment 4.</Text>
+</Description>
 ```
 
 ### Orientation
