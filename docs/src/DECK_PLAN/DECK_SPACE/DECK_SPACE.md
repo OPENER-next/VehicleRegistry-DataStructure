@@ -8,17 +8,6 @@ The properties below are general properties that any `DeckSpace` provides.
 
 ## Properties
 
-### Label
-
-An attached or printed name of the space like the name found on a room sign.
-
-#### Example
-```xml
-<Label>
-  <Text lang="en">C3</Text>
-</Label>
-```
-
 ### Name
 
 A name to identify the space.
@@ -39,6 +28,38 @@ A description providing additional information about the space.
 <Description>
   <Text lang="en">Second class family compartment.</Text>
 </Description>
+```
+
+### gml:Polygon
+
+The area the `DeckSpace` occupies in a 2D cartesian coordinate system. The parent [Deck](../DECK.md) element acts as the bounding box of the `DeckSpace` and the unit is in meters.
+This is only useful for generating a visual deck plan.
+
+#### Example
+```xml
+<gml:Polygon gml:id="abc">
+  <gml:exterior>
+    <gml:LinearRing>
+      <gml:posList>4.2 5.1 10.2 5.2 0.3 2</gml:posList>
+    </gml:LinearRing>
+  </gml:exterior>
+  <gml:interior>
+    <gml:LinearRing>
+      <gml:posList>1 1 1.1 1.1 0.9 0.9</gml:posList>
+    </gml:LinearRing>
+  </gml:interior>
+</gml:Polygon>
+```
+
+### Label
+
+An attached or printed name of the space like the name found on a room sign.
+
+#### Example
+```xml
+<Label>
+  <Text lang="en">C3</Text>
+</Label>
 ```
 
 ### Orientation

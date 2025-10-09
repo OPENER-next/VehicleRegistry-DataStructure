@@ -48,6 +48,20 @@ A description providing additional information about the entrance.
 </Description>
 ```
 
+### Centroid
+
+The center position of the `DeckEntrance` in a 2D cartesian coordinate. The parent [Deck](../DECK.md) element acts as the bounding box of the `DeckEntrance` and the unit is in meters.
+This is only useful for generating a visual deck plan.
+
+#### Example
+```xml
+<Centroid>
+  <Location>
+    <gml:pos>2 10</gml:pos>
+  </Location>
+</Centroid>
+```
+
 ### Orientation
 
 Orientation of the entrance relative to the vehicle front. Default is `forwards`.

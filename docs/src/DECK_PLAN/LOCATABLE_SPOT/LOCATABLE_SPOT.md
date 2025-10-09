@@ -8,17 +8,6 @@ The properties below are general properties that any `LocatableSpot` provides.
 
 ## Properties
 
-### Label
-
-An attached or printed name of the spot like the seat number.
-
-#### Example
-```xml
-<Label>
-  <Text lang="en">C3</Text>
-</Label>
-```
-
 ### Name
 
 A name to identify the spot.
@@ -39,6 +28,31 @@ A description providing additional information about the spot.
 <Description>
   <Text lang="en">Second class family compartment.</Text>
 </Description>
+```
+
+### Centroid
+
+The center position of the `LocatableSpot` in a 2D cartesian coordinate system. The parent [Deck](../DECK.md) element acts as the bounding box of the `LocatableSpot` and the unit is in meters.
+This is only useful for generating a visual deck plan.
+
+#### Example
+```xml
+<Centroid>
+  <Location>
+    <gml:pos>2 10</gml:pos>
+  </Location>
+</Centroid>
+```
+
+### Label
+
+An attached or printed name of the spot like the seat number.
+
+#### Example
+```xml
+<Label>
+  <Text lang="en">C3</Text>
+</Label>
 ```
 
 ### Orientation

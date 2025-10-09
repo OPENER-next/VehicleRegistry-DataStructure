@@ -29,6 +29,22 @@ A name to identify the deck.
 </Name>
 ```
 
+### gml:Polygon
+
+The outline of the `Deck` in a 2D cartesian coordinate system. Any child elements have to be located inside this polygon. The unit is in meters.
+This is only useful for generating a visual deck plan.
+
+#### Example
+```xml
+<gml:Polygon gml:id="abc">
+  <gml:exterior>
+    <gml:LinearRing>
+      <gml:posList>4.2 5.1 10.2 5.2 0.3 2</gml:posList>
+    </gml:LinearRing>
+  </gml:exterior>
+</gml:Polygon>
+```
+
 ### DeckLevelRef
 
 ### deckSpaces
