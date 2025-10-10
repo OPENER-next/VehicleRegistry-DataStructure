@@ -54,7 +54,7 @@ class EnumValuesLineReplacer:
       else:
         self.valueListFound = False
     else:
-      match = re.search(r'(?<=(^#### Values \(`)).*(?=(`\):))', line)
+      match = re.search(r'(?<=(# Values \(`)).*(?=(`\):))', line)
       if match:
         elements = self.findEnumElementsByName(match.group(0))
         if elements:
