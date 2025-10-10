@@ -152,6 +152,24 @@ Reference to the [`DeckLevel`](../DECK_LEVEL.md) this entrance belongs to. If om
 <DeckLevelRef ref="level:2"/>
 ```
 
+### AccessibilityAssessment
+
+Specific [AccessibilityAssessment](../ACCESSIBILITY_ASSESSMENT.md) of this `DeckEntrance`.
+
+#### Example
+```xml
+<AccessibilityAssessment version="any" id="1">
+  <MobilityImpairedAccess>partial</MobilityImpairedAccess>
+  <suitabilities>
+    <Suitability>
+      <MedicalNeed>heartCondition</MedicalNeed>
+      <Suitable>notSuitable</Suitable>
+    </Suitability>
+  </suitabilities>
+  <Comment>Unsuitable for people with a heart pacemaker.</Comment>
+</AccessibilityAssessment>
+```
+
 ### VehicleSide
 
 The location of the entrance relative to forward orientation of the vehicle (see [Orientation](#orientation)).

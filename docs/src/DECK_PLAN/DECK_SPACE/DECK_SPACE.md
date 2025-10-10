@@ -185,6 +185,27 @@ The fare class of this space. Defaults to `any`.
 <FareClass>firstClass</FareClass>
 ```
 
+### AccessibilityAssessment
+
+Specific [AccessibilityAssessment](../ACCESSIBILITY_ASSESSMENT.md) of this `DeckSpace`.
+
+#### Example
+```xml
+<AccessibilityAssessment version="any" id="1">
+  <suitabilities>
+    <Suitability>
+      <PsychosensoryNeed>averseToConfinedSpaces</PsychosensoryNeed>
+      <Suitable>notSuitable</Suitable>
+    </Suitability>
+    <Suitability>
+      <MobilityNeed>wheelchair</MobilityNeed>
+      <Suitable>notSuitable</Suitable>
+    </Suitability>
+  </suitabilities>
+  <Comment>The gangway is only 0.5 meters wide.</Comment>
+</AccessibilityAssessment>
+```
+
 ### Covered
 
 Whether the space is covered. Default is `true`.
