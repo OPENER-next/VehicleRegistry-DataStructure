@@ -46,3 +46,4 @@
 - [Equipment assignment to vehicle types](rationales/EQUIPMENT_ASSIGNMENT.md)
 - [Facilities vs equipment](rationales/FACILITIES_VS_EQUIPMENT.md)
 - [DeckSpaces spanning multiple floors](rationales/DECK_SPACES_ACROSS_LEVELS.md)
+- [Wheelchair Vehicle Equipment](rationales/WHEELCHAIR_VEHICLE_EQUIPMENT.md)
