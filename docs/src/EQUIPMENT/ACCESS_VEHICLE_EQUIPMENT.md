@@ -50,6 +50,21 @@ Only relevant if `NumberOfSteps` is greater than 0.
 
 Height of the outer entry point (lowest step), measured from the ground of the road or top of the rail. Together with `FloorHeight` this describes the lowest and highest point of an entrance.
 
+```
+───────┬───┐ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┬
+       │   │                     │
+       │   └───┐ ─ ─ ┬           │
+ Floor │ Step  │     │           │
+───────┴───────┤     │           │
+               │     │           │ Floor
+               │     │ Boarding  │ Height
+               │     │ Height    │
+               │     │           │
+          ┌─┐  │     │           │
+──────────│ │──┘     │           │
+ Track    └─┘─ ─ ─ ─ ┴ ─ ─ ─ ─ ─ ┴
+```
+
 #### DELFI
 
 - 3101 ↦ `BoardingHeight from AccessVehicleEquipment where Kneeling == true`
@@ -58,16 +73,6 @@ Height of the outer entry point (lowest step), measured from the ground of the r
 
 ```xml
 <BoardingHeight>0.32</BoardingHeight>
-```
-
-### Kneeling
-
-Whether BoardingHeight and FloorHeight values reflect the height when kneeling is active/inactive.
-
-#### Example
-
-```xml
-<Kneeling>true</Kneeling>
 ```
 
 ### FloorHeight
@@ -84,9 +89,37 @@ Height of the inner entry point (floor next to the entrance), measured from the 
 <FloorHeight>0.75</FloorHeight>
 ```
 
+### Kneeling
+
+Whether `BoardingHeight` and `FloorHeight` values reflect the height when kneeling is active/inactive.
+
+#### Example
+
+```xml
+<Kneeling>true</Kneeling>
+```
+
 ### EdgeToTrackCenterDistance
 
-Distance from the outer entry point (including any fixed outer steps) to the vehicle center (center point between axles). Can be used to calculate the horizontal gap in conjunction with the EdgeToTrackCenterDistance from Quay. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/900))
+Distance from the outer entry point (including any fixed outer steps) to the vehicle center (center point between axles). Can be used to calculate the horizontal gap in conjunction with the `EdgeToTrackCenterDistance` from `Quay`. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/900))
+
+```
+                Platform
+                Distance
+            ├─────────────────┤
+
+            |   Entrance      |
+                Distance
+            ├──────────────┤  |
+
+            |              |  ┌──────────
+┌───────────────────────┬──┐  │ Platform
+│           |           ├──┘  │
+│                       │     │
+│  ┌─┐      |      ┌─┐  │     │
+└──│ │─────────────│ │──┘     │
+   └─┘    Track    └─┘        └──────────
+```
 
 #### DELFI
 
