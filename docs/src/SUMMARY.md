@@ -38,6 +38,7 @@
     - [Passenger Spot](DECK_PLAN/LOCATABLE_SPOT/PASSENGER_SPOT.md)
     - [Luggage Spot](DECK_PLAN/LOCATABLE_SPOT/LUGGAGE_SPOT.md)
     - [Passenger Vehicle Spot](DECK_PLAN/LOCATABLE_SPOT/PASSENGER_VEHICLE_SPOT.md)
+  - [Actual Vehicle Equipment](DECK_PLAN/ACTUAL_VEHICLE_EQUIPMENT.md)
   - [Accessibility Assessment](DECK_PLAN/ACCESSIBILITY_ASSESSMENT.md)
 
 # Rationales
