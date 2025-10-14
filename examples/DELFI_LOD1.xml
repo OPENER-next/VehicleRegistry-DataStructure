@@ -5,7 +5,7 @@
   xmlns:gml="http://www.opengis.net/gml/3.2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   version="any"
-  xsi:schemaLocation="http://www.netex.org.uk/netex file:///home/robin/Projekte/NeTEx-fork/xsd/NeTEx_publication.xsd"
+  xsi:schemaLocation="http://www.netex.org.uk/netex file:///NeTEx/xsd/NeTEx_publication.xsd"
 >
 
   <!--LOD1:
