@@ -59,6 +59,18 @@ The date when the `VehicleModel` was last modified.
 
 ## Properties
 
+### privateCodes
+
+A list of private codes that uniquely identify the `VehicleModel`. Used to inter-operate with other systems.
+The `type` argument is an arbitrary string to define the type of code.
+
+#### Example:
+```xml
+<privateCodes>
+  <PrivateCode type="UIC-Index">bb</PrivateCode>
+</privateCodes>
+```
+
 ### Name
 The common name or model designation of the `VehicleModel` (e.g., "Mercedes-Benz Citaro"). The name doesn't have to be unique. If a `VehicleModel` with the same name already exists, their differences should be explained in the description.
 
