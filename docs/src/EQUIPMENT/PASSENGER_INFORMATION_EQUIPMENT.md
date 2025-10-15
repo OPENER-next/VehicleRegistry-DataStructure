@@ -85,16 +85,18 @@ The facilities this equipment provides.
 #### Values (`PassengerInformationFacilityEnumeration`):
 - nextStopIndicator
 - stopAnnouncements
+- routeAnnouncements (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/882))
 - passengerInformationDisplay
+- destinationDisplay (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/882))
 - realTimeConnections
 - other
 
 #### DELFI
 
 - 3020 ↦ `nextStopIndicator`
-- 3021 ↦ `destinationDisplay` (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/882))
+- 3021 ↦ `destinationDisplay`
 - 3030 ↦ `stopAnnouncements`
-- 3031 ↦ `routeAnnouncements` (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/882))
+- 3031 ↦ `routeAnnouncements`
 
 #### Example
 ```xml

@@ -82,3 +82,17 @@ How the audio announcements are triggered.
 ```xml
 <AudioAnnouncementsTrigger>mobileApp</AudioAnnouncementsTrigger>
 ```
+
+### AudioAnnouncementsScope
+
+Where the announcements are proclaimed. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/882))
+
+#### Values (`AudioAnnouncementsScopeEnumeration`):
+- onDevice
+- onBoard
+- onSite
+
+#### Example
+```xml
+<AudioAnnouncementsScope>onSite</AudioAnnouncementsScope>
+```
