@@ -91,7 +91,7 @@ Height of the inner entry point (floor next to the entrance), measured from the 
 
 ### Kneeling
 
-Whether `BoardingHeight` and `FloorHeight` values reflect the height when kneeling is active/inactive.
+Whether `BoardingHeight` and `FloorHeight` values reflect the height when kneeling is active/inactive. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/873))
 
 #### Example
 
