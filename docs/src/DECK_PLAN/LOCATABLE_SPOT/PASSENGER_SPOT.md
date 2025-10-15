@@ -137,3 +137,28 @@ Whether the passenger spot is facing a window. Useful for seat reservation prefe
 ```xml
 <IsFacingAisle>True</IsFacingAisle>
 ```
+
+### PriorityUse
+
+Whether some passengers are privileged to use this `PassengerSpot`. (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/898))
+
+### Values (`PriorityUseEnumeration`):
+- none
+- personWithReducedMobility (priority seat as defined in EN 16585-2:2022)
+- senior
+- disabled
+- injured
+- pregnantWoman
+- infantCarryingPerson
+- child
+- woman
+- guideDog
+- wheelchairUser (wheelchair space as defined in EN 16585-2:2022)
+- walkingChair
+- pram
+- bicycle
+
+### Example
+```xml
+<PriorityUse>senior disabled injured pregnantWoman infantCarryingPerson</PriorityUse>
+```

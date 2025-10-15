@@ -288,6 +288,7 @@ Individual capacities by category such as bed, standing, seat etc.
 
 #### Values (`TypeOfLocatableSpotEnumeration`):
 - seat
+- prioritySeat (See [NeTEx Proposal](https://github.com/NeTEx-CEN/NeTEx/issues/898))
 - bed
 - standingSpace
 - wheelchairSpace
