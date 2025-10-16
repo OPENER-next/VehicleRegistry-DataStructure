@@ -1,6 +1,6 @@
 # AccessibilityAssessment
 
-Can be used to describe accessibility characteristics of an [ActualVehicleEquipment](ACTUAL_VEHICLE_EQUIPMENT.md), [DeckSpace](DECK_PLAN/DECK_SPACE/DECK_SPACE.md) or [DeckEntrance](DECK_PLAN/DECK_ENTRANCE/DECK_ENTRANCE.md).
+Can be used to describe accessibility characteristics of an [ActualVehicleEquipment](ACTUAL_VEHICLE_EQUIPMENT.md), [DeckSpace](DECK_SPACE/DECK_SPACE.md) or [DeckEntrance](DECK_ENTRANCE/DECK_ENTRANCE.md).
 
 **XSD:** [`xsd/netex_framework/netex_genericFramework/netex_accessibility/netex_acsb_accessibility.xsd`](https://github.com/NeTEx-CEN/NeTEx/blob/next/xsd/netex_framework/netex_genericFramework/netex_accessibility/netex_acsb_accessibility.xsd#L128)
 
@@ -8,7 +8,7 @@ Can be used to describe accessibility characteristics of an [ActualVehicleEquipm
 
 ### MobilityImpairedAccess
 
-Useful to generally mark areas as accessible for mobility impaired people. A [DeckSpace](DECK_PLAN/DECK_SPACE/DECK_SPACE.md) could be colored or patterned differently on a visual deck plan.
+Useful to generally mark areas as accessible for mobility impaired people. A [DeckSpace](DECK_SPACE/DECK_SPACE.md) could be colored or patterned differently on a visual deck plan.
 
 #### Values (`LimitationStatusEnumeration`):
 - true

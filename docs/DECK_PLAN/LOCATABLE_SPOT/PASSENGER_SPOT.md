@@ -1,6 +1,6 @@
 # PassengerSpot
 
-A [LocatableSpot](LOCATABLE_SPOT.md) defining a designated seat or other space for a passenger within a given [PassengerSpace](../DECK_spot/PASSENENGER_SPACE.md).
+A [LocatableSpot](LOCATABLE_SPOT.md) defining a designated seat or other space for a passenger within a given [PassengerSpace](../DECK_SPACE/PASSENGER_SPACE.md).
 
 ```xml
 <PassengerSpot version="any" id="321">

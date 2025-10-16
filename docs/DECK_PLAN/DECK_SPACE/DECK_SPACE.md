@@ -128,7 +128,7 @@ PublicationDelivery/dataObjects/ResourceFrame/vehicleTypes/VehicleType/facilitie
 
 ### actualVehicleEquipments
 
-Equipment available at this space. This contains references to [`Equipment`](../EQUIPMENT/EQUIPMENT.md) defined under:
+Equipment available at this space. This contains references to [`Equipment`](../../EQUIPMENT/EQUIPMENT.md) defined under:
 
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

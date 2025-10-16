@@ -1,6 +1,6 @@
 # LocatableSpot
 
-An identifiable individual area within a given [PassengerSpace](../DECK_spot/PASSENENGER_SPACE.md), which may potentially be allocated to a single passenger.
+An identifiable individual area within a given [PassengerSpace](../DECK_SPACE/PASSENGER_SPACE.md), which may potentially be allocated to a single passenger.
 
 The properties below are general properties that any `LocatableSpot` provides.
 
@@ -121,7 +121,7 @@ PublicationDelivery/dataObjects/ResourceFrame/vehicleTypes/VehicleType/facilitie
 
 ### actualVehicleEquipments
 
-Equipment available at this spot. This contains references to [`Equipment`](../EQUIPMENT/EQUIPMENT.md) defined under:
+Equipment available at this spot. This contains references to [`Equipment`](../../EQUIPMENT/EQUIPMENT.md) defined under:
 
 ```
 PublicationDelivery/dataObjects/ResourceFrame/equipments

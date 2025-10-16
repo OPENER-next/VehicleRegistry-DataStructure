@@ -6,7 +6,7 @@
 
 Every element described in this data structure can be assigned zero or multiple `ValidityCondition`s via the `validityConditions` property.
 
-The `validityConditions` shall contain references to `ValidityCondition` elements defined in the [`DeckPlan/configurationConditions`](../DECK_PLAN/DECK_PLAN.md#configurationconditions).
+The `validityConditions` shall contain references to `ValidityCondition` elements defined in the [`DeckPlan/configurationConditions`](DECK_PLAN/DECK_PLAN.md#configurationconditions).
 If a `ValidityConditionRef` is provided then the equipment is only active if one of the referenced configurations is active.
 
 #### Example

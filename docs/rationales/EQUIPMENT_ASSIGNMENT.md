@@ -205,6 +205,7 @@ Since `VehicleType` and `VehicleModel` can reference each other the question was
 Below is a comparison of the reference hierarchy:
 
 <table>
+<thead>
 <tr>
   <th>
   VehicleType
@@ -213,6 +214,8 @@ Below is a comparison of the reference hierarchy:
   VehicleModel
   </th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td>
 <pre>
@@ -233,6 +236,7 @@ VehicleModel
 </pre>
   </td>
 </tr>
+</tbody>
 </table>
 
 

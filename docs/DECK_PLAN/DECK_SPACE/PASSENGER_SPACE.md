@@ -50,7 +50,7 @@ Whether standing is allowed in this passenger space.
 
 ### passengerSpots
 
-Individual passenger spots (usually seats) contained in this passenger space. This contains a list of [`PassengerSpot`](../PASSENGER_SPOT.md) definitions or references.
+Individual passenger spots (usually seats) contained in this passenger space. This contains a list of [`PassengerSpot`](../LOCATABLE_SPOT/PASSENGER_SPOT.md) definitions or references.
 
 #### Example
 
@@ -66,7 +66,7 @@ Individual passenger spots (usually seats) contained in this passenger space. Th
 
 ### luggageSpots
 
-Individual luggage spots contained in this passenger space. This contains a list of [`LuggageSpot`](../LUGGAGE_SPOT.md) definitions or references.
+Individual luggage spots contained in this passenger space. This contains a list of [`LuggageSpot`](../LOCATABLE_SPOT/LUGGAGE_SPOT.md) definitions or references.
 
 #### Example
 
@@ -82,7 +82,7 @@ Individual luggage spots contained in this passenger space. This contains a list
 
 ### passengerVehicleSpots
 
-Individual passenger vehicle spots like bicycle stands on a train or parking spots on a ferry contained in this passenger space. This contains a list of [`PassengerVehicleSpot`](../PASSENGER_VEHICLE_SPOT.md) definitions or references.
+Individual passenger vehicle spots like bicycle stands on a train or parking spots on a ferry contained in this passenger space. This contains a list of [`PassengerVehicleSpot`](../LOCATABLE_SPOT/PASSENGER_VEHICLE_SPOT.md) definitions or references.
 
 #### Example
 
